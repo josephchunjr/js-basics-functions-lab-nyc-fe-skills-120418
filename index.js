@@ -18,4 +18,10 @@ function distanceFromHqInFeet(block) {
   }
 }
 
-funtion 
+function distanceTravelledInFeet(startingBlock, endingBlock) {
+    if (endingBlock < startingBlock) {
+    return (startingBlock - endingBlock) * feetInBlock
+  } else {
+    return (endingBlock - startingBlock) * feetInBlock
+  }
+}
