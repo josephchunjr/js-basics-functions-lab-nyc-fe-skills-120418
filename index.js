@@ -34,5 +34,5 @@ function calculatesFarePrice(startingBlock, endingBlock) {
     return (feetTraveled - 400) * 0.02
   }
   
-  }
+  
 }
