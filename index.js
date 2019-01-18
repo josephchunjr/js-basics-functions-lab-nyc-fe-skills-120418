@@ -34,6 +34,8 @@ function calculatesFarePrice(startingBlock, endingBlock) {
     return (feetTraveled - 400) * 0.02
   } else if (2000 < feetTraveled < 2500) {
     return 25
+  } else if (feetTraveled > 2500) {
+    return "cannont"
   }
   
   
