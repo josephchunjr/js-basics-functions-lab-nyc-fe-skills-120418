@@ -2,11 +2,11 @@
 const startingPoint = 42
 
 function distanceFromHqInBlocks (block) {
- if (block < startingPoint) {
+  if (block < startingPoint) {
     return startingPoint - block
- } else {
+  } else {
     return block - startingPoint
-}
+  }
 }
 
-function distanceFromHqInFeet
+function distanceFromHqInFeet()
